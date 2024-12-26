@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">MD_Project__OpenWeather_Api</string>
+    <string name="app_name">OpenWeather API</string>
+    <string name="search">Search</string>
+    <string name="input">Enter city name</string>
 </resources>

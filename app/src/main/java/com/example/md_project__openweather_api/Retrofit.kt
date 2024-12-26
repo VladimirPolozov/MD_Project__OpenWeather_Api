@@ -26,6 +26,11 @@ interface RetrofitServices {
         @Query("lon") lon: Double,
         @Query("appid") apiKey: String
     ): Call<WeatherWrapper>
+    @GET("data/2.5/forecast")
+    fun getWeatherListByCity(
+        @Query("q") cityName: String,
+        @Query("appid") apiKey: String
+    ): Call<WeatherWrapper>
 }
 
 object Common {
